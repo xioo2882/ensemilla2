@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ensemilla2</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background:#798543;
+      color: #394030;
+    }
+    header {
+      background-color: #bc9665;
+      color:black;
+      padding: 20px 10px;
+      text-align: center;
+    }
+    nav {
+      background: #63401d;
+    }
+    nav a {
+      color: white;
+      display: inline-block;
+      padding: 15px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color:#bc9665;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    h1, h2 {
+      color: #394030;
+    }
+    .productos img {
+      max-width: 200px;
+      margin: 10px;
+      border: 1px solid #ddd;
+      padding: 5px;
+      background: #fff;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #bc9665;
+      color: white;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0 10px 0;
+      box-sizing: border-box;
+    }
+    form button {
+      background: #bc9665;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    form button:hover {
+      background:#A07845;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ENSEMILLA2</h1>
+  <p> </p>
+  
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#productos">Productos</a>
+  <a href="#quienes-somos">Quiénes Somos</a>
+  <a href="#contacto">Contacto</a>
+  <a href="#funcionamiento">funcionamiento</a>
+</nav>
+
+<section id="inicio">
+  <h2>Bienvenidos</h2>
+  <p>Bienvenidos a Ensemilla2. Somos un grupo de jóvenes que creamos bolsas de semillas aromatizadas para ayudarte a sentir mejor, con calor o frío y aroma donde estés.</p>
+</section>
+  <!-- Podés agregar una foto aquí -->
+ 
+  <section id="productos" class="seccion">
+  <h2>Productos</h2>
+  <div class="galeria">
+    <img src="bolsa.jpg" alt="Bolsa nueva" width="200" height="150">
+    <img src="cuello.jpg" alt="Bolsa cuello" width="200" height="150">
+    <img src="jaja2.jpg" alt="Bolsa jaja2" width="220" height="190">
+  </div>
+</section>
+
+  <section id="quienes-somos" class="seccion">
+  <h2>¿Quiénes Somos?</h2>
+  <p>Ensemilla2 es un emprendimiento de hijos de funcionarios de CUTCSA, dirigido por un programa de Empresas Juveniles de DESEM JA. 
+  Al notar que muchas personas conviven con dolores y estrés, decidimos ofrecer una opción natural y accesible para el bienestar: nuestras bolsas de semillas aromatizadas.</p>
+</section>
+
+
+
+ <section id="funcionamiento" class="seccion">
+  <h2>¿Cómo funciona nuestro producto?</h2>
+  <p>Nuestra bolsa de semillas aromatizada es una opción natural, reutilizable y práctica para aliviar dolores físicos y reducir el estrés.</p>
+
+  <p>Puede usarse en calor (calentándola en microondas) para relajar músculos y aliviar contracturas, o en frío (enfriándola en heladera) para desinflamar zonas puntuales o calmar dolores de cabeza.</p>
+
+  <p>Además, está perfumada con aromas naturales que ayudan a calmar la mente. Está disponible en distintos tamaños para adaptarse a diferentes partes del cuerpo.</p>
+
+  <p><strong>¿Para qué se puede usar nuestra bolsa de semillas aromatizada?</strong></p>
+  <ul>
+    <li>Dolores musculares y contracturas</li>
+    <li>Cólicos menstruales</li>
+    <li>Dolores articulares (como rodillas o muñecas)</li>
+    <li>Estrés y ansiedad (por su efecto relajante y el aroma natural)</li>
+    <li>Dolores de cabeza o migrañas (en frío, en la frente o nuca)</li>
+    <li>Inflamaciones por golpes o esguinces leves</li>
+    <li>Calentar pies o manos frías en invierno</li>
+    <li>Relajación antes de dormir o después de entrenar</li>
+  </ul>
+</section>
+
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p>Email:empresajuvenilcutcsa2025@gmail.com</p>
+  <p>instagram:ensemilla2_ej
+
+  
+  <h3>Enviános un mensaje</h3>
+  <form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required />
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+    
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+    
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Empresa Juvenil CUTCSA - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
